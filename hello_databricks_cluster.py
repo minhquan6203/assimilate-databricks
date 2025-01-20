@@ -4,8 +4,7 @@ import os
 
 # Tạo đối tượng ApiClient
 api_client = ApiClient(
-    host=os.getenv("DATABRICKS_HOST"),
-    token=os.getenv("DATABRICKS_TOKEN")
+    host=os.getenv("DATABRICKS_HOST"), token=os.getenv("DATABRICKS_TOKEN")
 )
 
 # Tạo đối tượng ClusterApi

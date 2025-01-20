@@ -5,7 +5,6 @@ from databricks_cli.clusters.api import ClusterApi
 
 
 def list_clusters():
-
     api_client = ApiClient(
         host=os.getenv("DATABRICKS_HOST"), token=os.getenv("DATABRICKS_TOKEN")
     )
